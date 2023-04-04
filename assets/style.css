@@ -84,8 +84,8 @@ body {
 }
 #about-me {
 	flex: 2;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
 
 }
 .about-me__title {
@@ -93,17 +93,18 @@ body {
 	margin-bottom: 60px;
 	font-size: 30px;
 }
-.about-me__introduction {
-	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
-	width: 60%;
-}
 #about-me p {
 	width: 100%;
 	font-size: 14px;
 }
 
+.about-me__introduction {
+	font-family: 'Spectral';
+	font-size: 16px!important;
+	font-weight: 800;
+	font-style: italic;
+	width: 60%;
+}
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -115,8 +116,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: black;
+	background-color: #E5975F;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -274,7 +275,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
